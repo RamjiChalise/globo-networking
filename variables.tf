@@ -21,7 +21,7 @@ variable "environment" {
 }
 
 variable "billing_code" {
-  type = string
+  type        = string
   description = "Required: Billing Code for the environment"
 }
 variable "cidr_block" {
